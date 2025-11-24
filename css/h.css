@@ -1,0 +1,11 @@
+body{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,1fr);
+    background-image: linear-gradient(to bottom, #FF5733, rgb(110, 255, 168));;
+    column-gap: 0;
+    row-gap: 0px;
+    margin: 0px;
+    
+}
