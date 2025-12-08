@@ -3,22 +3,30 @@ body{
     display:grid;
     grid-template-columns: repeat(1,100%);
     grid-template-rows: repeat(3,1fr);
-    background-image: linear-gradient(to bottom, #FF5733, rgb(110, 255, 168));;
+    background-image: linear-gradient(to top, #FF5733, rgb(110, 255, 168));;
     column-gap: 0;
     row-gap: 0px;
     margin: 0px;
     
 }
 .t{
-    grid-row-start:0 ;
+    grid-row-start:1 ;
     grid-row-end:2 ;
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: #ffffff;
-    margin: 0;
+    margin: 0px;
     flex: auto;
     justify-items: end;
-    
+    border-radius: 0px 0px 50px 50px;
+}
+#n{
+    color: #303030;
+    justify-self:start ;
+    margin: 0px;
+    font-size: 400%;
+    font-family: sans-serif;
+    text-shadow: 5px 2px #FF5733;
 }
 #u{
     text-align: center;
@@ -41,6 +49,11 @@ button{
     border-color: #FF5733;
     border-style: solid ;
 }
+button:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+    background-color: #FF5733;color: white;
+    justify-self: end;
+}
 a:link{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -49,8 +62,19 @@ a:visited{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-button:hover {
-    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
-    background-color: #FF5733;color: white;
-    justify-self: end;
+/* u spestfik*/
+#t{
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+    color: rgb(0, 0, 0);
+    text-align: start;
+}
+#c{
+    grid-row-start:0 ;
+    grid-row-end:2 ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 100px;
+    background-color: #ffffff;
+    margin: 4px;
 }
