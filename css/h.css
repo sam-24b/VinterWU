@@ -34,7 +34,7 @@ body.n{
     height: 50px;
     width: 50px;
 }
-#l{
+#hl{
     text-align: center;
     border-radius: 100px;
     height: 100px;
@@ -79,3 +79,32 @@ a:visited{
     margin: 4px;
 }
 /* 404 spestfik*/
+
+/* l  spestfik*/
+body#l{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,1fr);
+    background-image: linear-gradient(to top, #FF5733, rgb(110, 255, 168));;
+    column-gap: 0;
+    row-gap: 0px;
+    margin: 0px;
+}
+#lt{
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 100px;
+    background-color: #ffffff;
+    margin: 4px;
+}
+.li{ 
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    background-color: #ffffff;
+}
