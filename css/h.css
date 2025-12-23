@@ -1,4 +1,4 @@
-body{
+body.n{
     height: 100vh;
     display:grid;
     grid-template-columns: repeat(1,100%);
@@ -78,3 +78,4 @@ a:visited{
     background-color: #ffffff;
     margin: 4px;
 }
+/* 404 spestfik*/
