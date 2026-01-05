@@ -107,4 +107,64 @@ body#l{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(5,1fr);
     background-color: #ffffff;
+    text-align: center;
+}
+/* div inehål */
+#la{
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    grid-column-start:1 ;
+    grid-column-end:6 ;
+}
+
+#ld{
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+}
+#lsc{
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+}
+
+#lit{
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:4 ;
+    grid-column-end:4 ;
+}
+#lss{
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    grid-column-start:4 ;
+    grid-column-end:4 ;
+}
+
+#lr{
+    grid-row-start:4 ;
+    grid-row-end:4 ;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+}
+#lst{
+    grid-row-start:5 ;
+    grid-row-end:5 ;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+}
+
+#lc{
+    grid-row-start:4 ;
+    grid-row-end:4 ;
+    grid-column-start:4 ;
+    grid-column-end:4 ;
+}
+#lsk{
+    grid-row-start:5 ;
+    grid-row-end:5 ;
+    grid-column-start:4 ;
+    grid-column-end:4 ;
 }
