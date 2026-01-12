@@ -162,8 +162,15 @@ body#l{
 #la{
     grid-row-start:1 ;
     grid-row-end:1 ;
-    grid-column-start:1 ;
+    grid-column-start:2 ;
+    grid-column-end:5 ;
+}
+#lh{
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    grid-column-start:5 ;
     grid-column-end:6 ;
+    justify-self: right;
 }
 
 #ld{
