@@ -69,6 +69,48 @@ a:visited{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+.b{
+   grid-row-start:2 ;
+   grid-row-end:2 ;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   background-color: #ffffff;
+   margin: 0px;
+   display: grid; 
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: 20% 80%;
+   margin: 1%;
+   border-radius:20px;
+}
+#bt{
+    color: #ffffff;
+    margin: 0px;
+    grid-row-start:1 ;
+   grid-row-end:1;
+    grid-column-start:1 ;
+   grid-column-end:3 ;
+    background-image: url(../img/high-angle-delicious-brownies-arrangement.jpg);
+   background-position: center;
+ background-size: auto 147vw; 
+  background-repeat: no-repeat;
+  text-shadow: 5px 2px 5px#000000;
+  border-radius: 20px;
+  
+}
+#br{
+  grid-row-start:2 ;
+ grid-row-end:2 ;
+  grid-column-start:1 ;
+ grid-column-end:2 ;
+}
+#bj{
+  grid-row-start:2 ;
+ grid-row-end:2 ;
+  grid-column-start:2 ;
+ grid-column-end:3 ;
+ font-size: 15px;
+}
+
 /* u spestfik*/
 #t{
     grid-row-start:2 ;
