@@ -2,7 +2,7 @@ body.n{
     height: 100vh;
     display:grid;
     grid-template-columns: repeat(1,100%);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: 20% 1fr 1fr;
     background-image: linear-gradient(to top, #FF5733, rgb(110, 255, 168));;
     column-gap: 0;
     row-gap: 0px;
@@ -16,13 +16,16 @@ body.n{
     text-align: center;
     background-color: #ffffff;
     margin: 0px;
-    flex: auto;
-    justify-items: end;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
     border-radius: 0px 0px 50px 50px;
 }
 #n{
     color: #303030;
-    justify-self:start ;
+    justify-self: start ;
     margin: 0px;
     font-size: 400%;
     font-family: sans-serif;
@@ -33,12 +36,16 @@ body.n{
     border-radius: 100px;
     height: 50px;
     width: 50px;
+    justify-self:end;
+    align-self: flex-end;
 }
 #hl{
     text-align: center;
     border-radius: 100px;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
+    justify-self:end;
+    align-self: flex-start;
 }
 button{
     
